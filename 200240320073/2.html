@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document2</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    
+    <style>
+        body{
+            margin: 0px;
+            padding:0px;
+            width:100%;
+            background-image: url(i2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:500px;
+            width:100%
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top:280px;
+            left:900px;
+            width:350px;
+            height:300px;
+         
+            
+        }
+        .email
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            color:black;
+            
+        }
+        .email input{
+            outline: none;
+        }
+        
+        .pass{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            color:black;
+            
+        }
+        .pass input{
+            outline:none;
+        }
+        .btn button{
+            cursor: pointer;
+        }
+        
+    </style>
+<body>
+    <div class="row bg-danger p-2  justify-content-between  align-items-center sticky-bottom" style="height:65px " style=" ">
+        <div class="col-3 md-6 text-light d-flex" style="font-size:larger;">Home</div>
+        <div class="col-6 d-flex"></div>
+        <div class="col-3 md-12 text-light d-flex justify-content-end  "  style="font-size:larger;"></div>
+    </div>
+    
+    <div class="form">
+        <div style="margin-top: 2px; color:tomato;font-family: cursive;"><h1>Login Page</h1></div>
+        <form action="" onmouseup= return validate()>
+        <div class="email">
+           Email-ID <input type="email" nmae="email" placeholder="Put Email-Id Here...">
+        </div>
+        <div class="pass">
+           Passward <input type="password" name=PASS placeholder="Put Passward Here..">
+        </div>
+        <div class="btn">
+            <button >Log-In</button>
+            <button>Reset</button>
+        </div>
+    </form>
+        
+        
+    </div>
+
+</body>
+</html>
+<!--
+         </div>-->
